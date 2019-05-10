@@ -9,12 +9,19 @@
   <url>http://maven.apache.org</url>
   
   <properties>
-     <cucumber.version>4.3.0</cucumber.version>
-     <junit.version>3.8.1</junit.version>
-     <jstl.version>1.2</jstl.version>
+  	<javax.servlet.version>3.0.1</javax.servlet.version>
+	<cucumber.version>4.3.0</cucumber.version>
+	<junit.version>3.8.1</junit.version>
+	<jstl.version>1.2</jstl.version>
   </properties>
   
   <dependencies>
+  	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>javax.servlet-api</artifactId>
+	    <version>${javax.servlet.version}</version>
+	    <scope>provided</scope>
+	</dependency>
   	<dependency>
 	    <groupId>io.cucumber</groupId>
 	    <artifactId>cucumber-java</artifactId>
