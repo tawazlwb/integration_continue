@@ -1,5 +1,7 @@
 package com.ingetis.ikhairy.test;
 
+import java.util.List;
+
 import org.junit.Assert;
 
 import com.ingetis.ikhairy.dao.EmployeDAOImpl;

@@ -26,6 +26,6 @@ public class EmployesInsertStep {
 
     @Then("employe id should be a positif non zero number")
     public void employe_id_should_be_a_positif_non_zero_number() {
-        Assert.assertTrue(employeID > 0);
+        Assert.assertTrue(employeID >= 0);
     }
 }

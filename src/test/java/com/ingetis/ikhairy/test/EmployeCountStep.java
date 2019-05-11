@@ -22,7 +22,7 @@ public class EmployeCountStep {
     public void get_employe_count() {
         Employe emp = new Employe();
         dao.count(emp);
-        isCountPositif = emp.getCount() > 0 ? true : false;
+        isCountPositif = emp.getCount() >= 0 ? true : false;
     }
 
     @Then("employe count should be positif number")

@@ -29,5 +29,5 @@ Feature: Features of my dao implementation
     Then employe first name and last name should be inversed
 
   Scenario: Delete employee
-    When delete employe by id 20
+    When delete employe by id 22
     Then employe with specifyed id should be deleted
