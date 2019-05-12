@@ -13,6 +13,7 @@
 	<cucumber.version>4.3.0</cucumber.version>
 	<junit.version>4.12</junit.version>
 	<jstl.version>1.2</jstl.version>
+	<selenium.version>3.141.59</selenium.version>
   </properties>
   
   <dependencies>
@@ -44,6 +45,11 @@
 	    <groupId>jstl</groupId>
 	    <artifactId>jstl</artifactId>
 	    <version>${jstl.version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>${selenium.version}</version>
 	</dependency>
   </dependencies>
   

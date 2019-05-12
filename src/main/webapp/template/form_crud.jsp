@@ -20,8 +20,8 @@
 	</table>
 	<input type="hidden" name="currentPage" value="${currentPage}">
 	<br>
-	<input type="submit" name="submit" value="chercher">
-	<input type="submit" name="submit" value="modifier">
-	<input type="submit" name="submit" value="ajouter">
-	<input type="submit" name="submit" value="supprimer">
+	<input class="chercher" type="submit" name="submit" value="chercher">
+	<input class="modifier" type="submit" name="submit" value="modifier">
+	<input class="ajouter" type="submit" name="submit" value="ajouter">
+	<input class="supprimer" type="submit" name="submit" value="supprimer">
 </form>
